@@ -5,7 +5,7 @@ import os
 
 # Carregará as configurações para a aplicação
 try:
-    # Verificará se há o diretório media (onde ficarão os arquivos gerados por predições), caso não haja será criado o mesmo
+    # Verificará se há o diretório static (onde ficarão os arquivos gerados por predições), caso não haja será criado o mesmo
     os.system(f'if [ ! -d static ]; then mkdir static && echo "Diretório {"static/"} criado com sucesso!"; fi')
     # Seleciona o path para salvar os arquivos
     save_path='static'
